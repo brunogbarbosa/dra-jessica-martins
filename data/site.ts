@@ -34,9 +34,9 @@ export const site = {
 
   images: {
     hero: '/images/jessica-hero-cutout.png',
-    about: '/images/jessica-about.webp',
+    about: '/images/jessica-essence.webp',
     essence: '/images/jessica-result-01.webp',
-    beauty: '/images/jessica-essence.webp',
+    beauty: '/images/jessica-about.webp',
   },
 
   procedures: [

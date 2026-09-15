@@ -86,7 +86,7 @@ export function AuthorChapter() {
       <figure className={styles.photo} data-author-motion="photo">
         <Image
           src={site.images.about}
-          alt="Dra. Jéssica Martins ao lado de equipamento de alta estética"
+          alt="Dra. Jéssica Martins na Clínica de Alta Estética"
           fill
           sizes="(max-width: 700px) 51vw, (max-width: 1100px) 56vw, 54vw"
         />

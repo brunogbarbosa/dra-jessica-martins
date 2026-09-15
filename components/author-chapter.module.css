@@ -107,7 +107,7 @@
 
 .photo img {
   object-fit: cover;
-  object-position: 50% 8%;
+  object-position: 63% 8%;
 }
 
 .card {
@@ -609,7 +609,7 @@
   }
 
   .photo img {
-    object-position: 50% 8%;
+    object-position: 68% 8%;
   }
 
   .card {
