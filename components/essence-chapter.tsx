@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useId, useRef } from 'react';
 import { ArrowUpRight, Heart, Leaf, UserRound } from 'lucide-react';
+import { site } from '@/data/site';
 
 const pillars = [
   { title: 'Identidade', copy: 'Seus traços. Sua história. O nosso ponto de partida.', Icon: UserRound },
@@ -78,7 +79,7 @@ export function EssenceChapter() {
         <circle cx="82" cy="669" r="5.5" fill={`url(#${uid}-pearl-mobile)`} data-essence-motion="bead" data-delay="600"/>
       </svg>
       <figure className="essence-smile" data-essence-motion="photo">
-        <Image src="/images/jessica-essence.webp" alt="Dra. Jéssica Martins na Clínica de Alta Estética" fill sizes="(max-width:700px) 180vw, (max-width:1100px) 82vw, 67vw"/>
+        <Image src={site.images.essence} alt="Close de cuidado labial compartilhado pela Dra. Jéssica Martins" fill sizes="(max-width:700px) 88vw, (max-width:1100px) 82vw, 67vw"/>
       </figure>
       <div className="essence-editorial-top">
         <p>01 / A ESSÊNCIA</p><span aria-hidden="true"/><p>A BELEZA COMEÇA<br/>NO QUE É SEU.</p>

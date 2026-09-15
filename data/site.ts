@@ -35,7 +35,8 @@ export const site = {
   images: {
     hero: '/images/jessica-hero.webp',
     about: '/images/jessica-about.webp',
-    beauty: '/images/jessica-result-01.webp',
+    essence: '/images/jessica-result-01.webp',
+    beauty: '/images/jessica-essence.webp',
   },
 
   procedures: [
